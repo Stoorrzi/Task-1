@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "eventId": 1,
+    "name": "speeches",
+    "description": "speeches of the dad",
+    "time": "10:15",
+    "ressource": null
+  },
+  {
+    "id": 2,
+    "eventId": 1,
+    "name": "meal",
+    "description": "Main meal",
+    "time": "12:00",
+    "ressource": null
+  },
+  {
+    "id": 3,
+    "eventId": 2,
+    "name": "performance",
+    "description": "Musik performance",
+    "time": "12:00",
+    "ressource": "Stage for the band"
+  }
+]

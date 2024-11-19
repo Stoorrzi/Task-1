@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Schloss Monrepos",
+    "address": "Schlossstr. 1, 70003 Ludwigsburg",
+    "capacity": 750,
+    "parking": 350,
+    "avEquipment": false
+  },
+  {
+    "id": 2,
+    "name": "Burg Heilbronn",
+    "address": "Burgstr. 1, 70203 Heilbronn",
+    "capacity": 150,
+    "parking": 70,
+    "avEquipment": true
+  }
+]
