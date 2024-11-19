@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "serviceType": "catering",
+        "pricePerHour": 25,
+        "maxCapacity": 1500
+    },
+    {
+        "id": 2,
+        "serviceType": "music band",
+        "pricePerHour": 70,
+        "maxCapacity": 300
+    },
+    {
+        "id": 3,
+        "serviceType": "floral arrangements",
+        "pricePerHour": 30,
+        "maxCapacity": 200
+    }
+]

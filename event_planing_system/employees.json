@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Eve",
+        "hourlyWage": 17.50,
+        "hoursWorked": 40,
+        "type": "servers"
+    },
+    {
+        "id": 2,
+        "name": "John",
+        "hourlyWage": 42.50,
+        "hoursWorked": 20,
+        "type": "coordinators"
+    },
+    {
+        "id": 3,
+        "name": "Liam",
+        "hourlyWage": 27.50,
+        "hoursWorked": 35,
+        "type": "entertainers"
+    }
+]

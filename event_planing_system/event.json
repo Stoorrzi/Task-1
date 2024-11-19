@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "locationId": 1,
+        "numberOfGuests": 500,
+        "eventDate": "2022-01-01",
+        "eventTime": "10:00:00",
+        "eventType": "Wedding",
+        "vendors": [
+            {
+                "cateringId": 1,
+                "decorationID": 1
+            }
+        ],
+        "employees": [
+            {
+                "employeeId": 1,
+                "timeStart": "09:30:00",
+                "timeEnd": "17:30:00"
+            }
+        ],
+        "timelineId": 1,
+        "status": "pending",
+        "price": 1240
+    },
+    {
+        "id": 2,
+        "locationId": 2,
+        "numberOfGuests": 50,
+        "eventDate": "2022-02-01",
+        "eventTime": "15:00:00",
+        "eventType": "Birthday",
+        "vendors": [],
+        "employees": [
+            {
+                "employeeId": 2,
+                "timeStart": "15:30:00",
+                "timeEnd": "19:30:00"
+            }
+        ],
+        "timelineId": 2,
+        "status": "finished",
+        "price": 230
+    }
+]
