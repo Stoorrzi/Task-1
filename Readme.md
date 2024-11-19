@@ -45,11 +45,11 @@ With this description and the stakeholder insights, you should have enough infor
 ```mermaid
 
 erDiagram
-    EVENT ||--o{ ACTIVITIE: "??"
-    EVENT o|--|| LOCATION : "Is at"
-    EVENT }o--o{ EMPLOYEE: "Works"
-    EVENT }o--o{ VENDOR: "??"
-    EVENT }o--o{ USER: "??"
+    EVENT ||--o{ ACTIVITIE: "includes"
+    EVENT }o--|| LOCATION : "is at"
+    EVENT }o--o{ EMPLOYEE: "works"
+    EVENT }o--o{ VENDOR: ""
+    EVENT }o--|| USER: "books"
 
     ACTIVITIE {
       string name
@@ -86,4 +86,53 @@ erDiagram
       int pricePerHour
       int maxCapacity
     }
+```
+
+# AI ERD-Diagram
+
+```mermaid
+erDiagram
+    EVENT {
+        string name
+        date event_date
+        int guest_count
+        float total_cost
+    }
+    CLIENT {
+        string name
+        string contact_info
+        string preferences
+    }
+    VENUE {
+        string name
+        int capacity
+        string facilities
+        float rate
+    }
+    STAFF {
+        string name
+        string role
+        string availability
+    }
+    VENDOR {
+        string name
+        string service_type
+        float rate
+    }
+    SCHEDULE {
+        string activity_name
+        time activity_time
+        string resources
+    }
+    INVOICE {
+        float total_amount
+        string breakdown
+    }
+
+    EVENT ||--o{ SCHEDULE : "includes"
+    EVENT }o--|| VENUE : "hosts"
+    EVENT }o--o{ STAFF : "assigns staff to"
+    EVENT }o--o{ VENDOR : "uses services from"
+    EVENT }o--|| CLIENT : "books"
+    INVOICE }o--|| EVENT : "generates"
 ```

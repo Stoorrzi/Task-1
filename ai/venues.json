@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Grand Hall",
+    "capacity": 200,
+    "facilities": "Parking, AV equipment",
+    "rate": 2000
+  },
+  {
+    "id": 2,
+    "name": "Riverside Pavilion",
+    "capacity": 100,
+    "facilities": "Scenic view, stage",
+    "rate": 1500
+  }
+]

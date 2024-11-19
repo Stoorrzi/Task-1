@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Doe Wedding",
+    "event_date": "2024-12-01",
+    "guest_count": 150,
+    "total_cost": 10000,
+    "client_id": 1,
+    "venue_id": 2
+  },
+  {
+    "id": 2,
+    "name": "Smith Corporate Meeting",
+    "event_date": "2024-12-05",
+    "guest_count": 50,
+    "total_cost": 5000,
+    "client_id": 2,
+    "venue_id": 1
+  }
+]

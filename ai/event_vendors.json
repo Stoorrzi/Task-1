@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "event_id": 1,
+    "vendor_id": 1,
+    "agreement_details": "Provide catering for 150 guests"
+  },
+  {
+    "id": 2,
+    "event_id": 2,
+    "vendor_id": 2,
+    "agreement_details": "Decorate venue with corporate theme"
+  }
+]
