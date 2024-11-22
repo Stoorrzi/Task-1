@@ -145,3 +145,26 @@ erDiagram
     Staff ||--o{ Event_Staff : "works"
     Vendor ||--o{ Event_Vendor : "provides"
 ```
+
+# Comparison
+
+Die KI fügt im ER Diagramm Primary sowie Foreing Keys hinzu,
+außerdem zusätzliche Tabellen für many-to-many Relations.
+Die Relationen sind bei beiden Versionen gleich.
+
+- Event
+  - Unser Event hat kein Name.
+  - Unser Event hat einen Status und typ sowie zusätzlich eine Uhrzeit sowie ein Preis.
+- Schedule/ Activite:
+  - Unsere Version hat Ressourcen die benötigt werden.
+  - Unsere Version hat eine Beschreibung.
+  - Die KI hat zusätzlich eine Endzeit.
+- Location/ Venue:
+  - KI hat keine Adresse und kein parking/ avEquipment
+- Employee/ Staff:
+  - Bei der KI fehlen die Lohnkosten und Arbeitszeiten des Mitarbeiters.
+- Vendor:
+  - Bei der KI gibt es einen Namen für den Vendor.
+  - Unser Vendor hat eine Maximale Kapazität und einen Preis.
+- User/ Client:
+  - Die KI hat noch Kontakt Informationen eines Users.
