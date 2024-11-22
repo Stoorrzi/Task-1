@@ -2,13 +2,9 @@
   {
     "id": 1,
     "name": "John Doe",
-    "contact_info": "johndoe@example.com",
-    "preferences": "Vegetarian catering, live music"
-  },
+    "contact_info": "johndoe@example.com"  },
   {
     "id": 2,
     "name": "Jane Smith",
-    "contact_info": "janesmith@example.com",
-    "preferences": "Luxury decor, photography"
-  }
+    "contact_info": "janesmith@example.com"  }
 ]

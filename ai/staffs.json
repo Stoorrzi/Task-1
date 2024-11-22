@@ -1,14 +1,12 @@
 [
   {
-    "id": 1,
-    "name": "Alice",
-    "role": "Coordinator",
-    "availability": "Available"
+    "staff_id": 1,
+    "name": "Emma Brown",
+    "role": "Coordinator"
   },
   {
-    "id": 2,
-    "name": "Bob",
-    "role": "Server",
-    "availability": "Busy"
+    "staff_id": 2,
+    "name": "James Lee",
+    "role": "Server"
   }
 ]

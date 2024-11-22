@@ -1,16 +1,23 @@
 [
   {
-    "id": 1,
+    "schedule_id": 1,
     "event_id": 1,
-    "activity_name": "Welcome Speech",
-    "activity_time": "18:00",
-    "resources": "Microphone"
+    "activity": "Welcome Speech",
+    "start_time": "15:00",
+    "end_time": "15:30"
   },
   {
-    "id": 2,
+    "schedule_id": 2,
     "event_id": 1,
-    "activity_name": "Dinner",
-    "activity_time": "19:00",
-    "resources": "Tables, chairs"
+    "activity": "Dinner",
+    "start_time": "18:00",
+    "end_time": "20:00"
+  },
+  {
+    "schedule_id": 3,
+    "event_id": 2,
+    "activity": "Presentation",
+    "start_time": "10:00",
+    "end_time": "11:30"
   }
 ]

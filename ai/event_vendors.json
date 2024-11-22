@@ -1,14 +1,17 @@
 [
   {
-    "id": 1,
     "event_id": 1,
     "vendor_id": 1,
-    "agreement_details": "Provide catering for 150 guests"
+    "agreed_rate": 5000
   },
   {
-    "id": 2,
-    "event_id": 2,
+    "event_id": 1,
     "vendor_id": 2,
-    "agreement_details": "Decorate venue with corporate theme"
+    "agreed_rate": 1500
+  },
+  {
+    "event_id": 2,
+    "vendor_id": 1,
+    "agreed_rate": 3000
   }
 ]
