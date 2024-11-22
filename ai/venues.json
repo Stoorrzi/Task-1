@@ -1,16 +1,14 @@
 [
   {
-    "id": 1,
-    "name": "Grand Hall",
+    "venue_id": 1,
+    "venue_name": "Grand Hall",
     "capacity": 200,
-    "facilities": "Parking, AV equipment",
-    "rate": 2000
+    "facilities": "Parking, AV Equipment"
   },
   {
-    "id": 2,
-    "name": "Riverside Pavilion",
-    "capacity": 100,
-    "facilities": "Scenic view, stage",
-    "rate": 1500
+    "venue_id": 2,
+    "venue_name": "Rose Garden",
+    "capacity": 50,
+    "facilities": "Outdoor Seating"
   }
 ]

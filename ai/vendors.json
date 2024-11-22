@@ -1,14 +1,12 @@
 [
   {
-    "id": 1,
-    "name": "Gourmet Catering",
-    "service_type": "Catering",
-    "rate": 5000
+    "vendor_id": 1,
+    "name": "Elegant Catering",
+    "service_type": "Catering"
   },
   {
-    "id": 2,
+    "vendor_id": 2,
     "name": "Floral Fantasy",
-    "service_type": "Decor",
-    "rate": 2000
+    "service_type": "Decoration"
   }
 ]
