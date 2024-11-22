@@ -92,47 +92,56 @@ erDiagram
 
 ```mermaid
 erDiagram
-    EVENT {
-        string name
-        date event_date
-        int guest_count
-        float total_cost
-    }
-    CLIENT {
+    Client {
+        int client_id PK
         string name
         string contact_info
-        string preferences
     }
-    VENUE {
-        string name
+    Event {
+        int event_id PK
+        string event_name
+        date event_date
+        int client_id FK
+        int venue_id FK
+    }
+    Venue {
+        int venue_id PK
+        string venue_name
         int capacity
         string facilities
-        float rate
     }
-    STAFF {
+    Staff {
+        int staff_id PK
         string name
         string role
-        string availability
     }
-    VENDOR {
+    Event_Staff {
+        int event_id FK
+        int staff_id FK
+    }
+    Vendor {
+        int vendor_id PK
         string name
         string service_type
-        float rate
     }
-    SCHEDULE {
-        string activity_name
-        time activity_time
-        string resources
+    Event_Vendor {
+        int event_id FK
+        int vendor_id FK
+        float agreed_rate
     }
-    INVOICE {
-        float total_amount
-        string breakdown
+    Schedule {
+        int schedule_id PK
+        int event_id FK
+        string activity
+        time start_time
+        time end_time
     }
 
-    EVENT ||--o{ SCHEDULE : "includes"
-    EVENT }o--|| VENUE : "hosts"
-    EVENT }o--o{ STAFF : "assigns staff to"
-    EVENT }o--o{ VENDOR : "uses services from"
-    EVENT }o--|| CLIENT : "books"
-    INVOICE }o--|| EVENT : "generates"
+    Client ||--o{ Event : "books"
+    Venue ||--o{ Event : "hosts"
+    Event ||--o{ Schedule : "has"
+    Event ||--o{ Event_Staff : "assigns"
+    Event ||--o{ Event_Vendor : "contracts"
+    Staff ||--o{ Event_Staff : "works"
+    Vendor ||--o{ Event_Vendor : "provides"
 ```
