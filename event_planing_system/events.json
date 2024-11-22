@@ -2,6 +2,7 @@
   {
     "id": 1,
     "locationId": 1,
+    "clientId": 1,
     "numberOfGuests": 500,
     "date": "2022-01-01",
     "time": "10:00:00",
@@ -12,6 +13,7 @@
   {
     "id": 2,
     "locationId": 2,
+    "clientId": 2,
     "numberOfGuests": 50,
     "date": "2022-02-01",
     "time": "15:00:00",
