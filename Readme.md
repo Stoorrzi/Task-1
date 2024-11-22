@@ -155,7 +155,7 @@ Die Relationen sind bei beiden Versionen gleich.
 - Event
   - Unser Event hat kein Name.
   - Unser Event hat einen Status und typ sowie zusätzlich eine Uhrzeit sowie ein Preis.
-- Schedule/ Activite:
+- Schedule/ Activitie:
   - Unsere Version hat Ressourcen die benötigt werden.
   - Unsere Version hat eine Beschreibung.
   - Die KI hat zusätzlich eine Endzeit.
